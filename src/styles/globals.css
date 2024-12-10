@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+.tabulator {
+  border: none;
+}
+.tabulator .tabulator-header{
+  background-color: #ffffff;
+  border: none;
+}
+.tabulator .tabulator-header .tabulator-col {
+  background-color: #ffffff;
+  border-right: none;
+
+}
