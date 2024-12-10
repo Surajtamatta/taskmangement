@@ -21,6 +21,11 @@ const Table = ({
         renderHorizontal="virtual"
         options={{ movableRows: true }}
         className="rounded shadow"
+        pagination="local"
+        paginationSize={6}
+        paginationSizeSelector={[3, 6, 8, 10]}
+        movableColumns={true}
+        paginationCounter="rows"
       />
 
 
